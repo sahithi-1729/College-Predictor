@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Selection Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>College Selection</h1>
+        <div class="dropdown-container">
+            <select id="college" class="dropdown">
+                <option value="" disabled selected>Select College</option>
+                <option value="College A">College A</option>
+                <option value="College B">College B</option>
+                <option value="College C">College C</option>
+            </select>
+            <select id="course" class="dropdown">
+                <option value="" disabled selected>Select Course</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="M.Tech">M.Tech</option>
+                <option value="PhD">PhD</option>
+            </select>
+            <select id="category" class="dropdown">
+                <option value="" disabled selected>Select Reservation Category</option>
+                <option value="General">General</option>
+                <option value="OBC">OBC</option>
+                <option value="SC/ST">SC/ST</option>
+            </select>
+            <select id="gender" class="dropdown">
+                <option value="" disabled selected>Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <button onclick="displayGraph()" class="dis-btn">Display Graph</button>
+
+        <div id="graph-container" class="graph-container">
+            <!-- Graph will be displayed here -->
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

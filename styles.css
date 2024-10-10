@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Afacad Flux", system-ui;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: rgba(0, 0, 0, 0.941); */
+    background: url(bg4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 0.5px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: rgba(125, 125, 125, 0.25) 0px 54px 55px, rgba(123, 122, 122, 0.12) 0px -12px 30px, rgba(125, 125, 125, 0.12) 0px 4px 6px, rgba(137, 137, 137, 0.17) 0px 12px 13px, rgba(159, 159, 159, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+.form-box h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    color: #244053;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #244053;
+    margin: 30px 0;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #244053;
+    font-weight: 500;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #d6d6d6;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+}
+
+
+.remember-forgot{
+    font-size: .9em;
+    color: #244053;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.remember-forgot label input{
+    accent-color: #244053;
+    margin-right: 6px;
+    padding-top: 3px;
+}
+
+.remember-forgot a{
+    color: #c2c7c8;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #6d8a9f;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.login-register{
+    font-size: .9em;
+    color: #92a2ad;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+.login-register p a{
+    color: #a9b6bf8e;
+    text-decoration: none;
+    font-weight: 2000;
+}
+
+.login-register p a:hover{
+    text-decoration: underline;
+    color: #244053;
+}
+
+
+
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.dropdown-container {
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.dis-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.graph-container {
+    margin-top: 20px;
+    text-align: center;
+}
